@@ -1,0 +1,90 @@
+/* estilos.css – Diseño limpio, moderno y suave */
+
+:root {
+  --bg: #f8fcfc;
+  --card: #ffffff;
+  --text: #1a2b3b;
+  --muted: #6b7a89;
+  --primary: #5aa7a7;
+  --primary-hover: #4c9393;
+  --radius: 14px;
+  --shadow: rgba(0,0,0,0.08);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Estructura base */
+body {
+  margin: 0;
+  padding: 20px;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  color: var(--text);
+}
+
+.container {
+  width: 100%;
+  max-width: 760px;
+  background: var(--card);
+  padding: 30px 26px;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 22px var(--shadow);
+  text-align: center;
+}
+
+/* Títulos */
+.title {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-top: 8px;
+  margin-bottom: 22px;
+  font-size: 1.05rem;
+}
+
+/* Imagen */
+.hero-image {
+  width: 260px;
+  max-width: 90%;
+  border-radius: 10px;
+  margin-bottom: 22px;
+  box-shadow: 0 6px 14px var(--shadow);
+}
+
+/* Texto */
+.description {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 26px;
+  line-height: 1.45;
+}
+
+/* Botón CTA */
+.cta-button {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 14px 28px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: 0.15s ease;
+  box-shadow: 0 8px 18px rgba(90,167,167,0.25);
+}
+
+.cta-button:hover {
+  background: var(--primary-hover);
+  transform: translateY(-3px);
+}
+
+/* Footer */
+.footer small {
+  color: var(--muted);
+  display: block;
+  margin-top: 24px;
+  font-size: 0.85rem;
+}
